@@ -13,7 +13,7 @@ ssh
 
 https
    ```bash
-    git clone [git@github.com:Erhan1708/LATOKEN-AI-Bot.git](https://github.com/Erhan1708/LATOKEN-AI-Bot.git)
+    git clone https://github.com/Erhan1708/LATOKEN-AI-Bot.git
 ```
 Для запуска бота выполните следующие шаги:
 
