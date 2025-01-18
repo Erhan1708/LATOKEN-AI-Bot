@@ -87,7 +87,7 @@ bot.on("text", async (ctx) => {
     const completion = await openai.chat.completions.create({
       model: "gpt-4o",
       messages: [
-        { role: "system", content: "Ты бот LATOKEN. Отвечай строго по теме." },
+        { role: "system", content: "Даю свободу дейстаия но в рамках LATOKEN возмти информацию по ссылке https://coda.io/@latoken/latoken-talent/latoken-161 и его хакатоне возмти информацию по ссылке https://deliver.latoken.com/hackathon" },
         { role: "user", content: userMessage },
       ],
     });
